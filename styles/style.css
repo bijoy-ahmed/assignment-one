@@ -1,0 +1,28 @@
+/*  */
+.header{
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 140px ; 
+}
+.bennar-text{
+    text-align: center;
+    color: brown;
+    background-image: url('../images/resources/Banner\ Image.png');
+    padding:200px  340px ;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.bennar-tittle{
+    color: white;
+font-size: 32px;
+font-family: Merriweather;
+font-weight: 400;
+}
+.bennar-thamble{
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 72px;
+     
+}
