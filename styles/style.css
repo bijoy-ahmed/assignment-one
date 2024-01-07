@@ -3,7 +3,7 @@
 body{
     margin-top: 50px;
     margin-right: 130px;
-    margin-left: 130px ; 
+    margin-left: 130px ;
 }
 .bennar-text{
     text-align:center ;
@@ -102,6 +102,7 @@ background: #F00;
     font-weight: 400;
 font-family: Inter;
 font-size: 20px;
+padding-bottom: 20px;
 }
 .happy-pic{
     padding:25px;
@@ -115,3 +116,88 @@ border: 15px solid #F00;
     font-size: 48px;
 }
 /* sixth  */
+.holiday{
+    margin-top: 120px;
+    margin-left:40px ;
+}
+.holiday-hide{
+    color: #070211;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-tittle{
+    color: #F00;
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;   
+}
+.holiday-five{
+    text-align: center;
+    
+}
+.holiday .holiday-img{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-image: url('../images/resources/Group\ 44.png');
+background-repeat: no-repeat;
+background-position:center ;
+
+}
+/* seventh */
+#portfolio{
+   padding-right: 26px;
+   margin-top: 120px;
+}
+.section-contain{
+
+}
+
+    
+.portfolio-item{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    margin:5px;
+    gap: 14px;
+}
+.portfolio-heading{
+    color: #F00;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 24px; 
+    margin-bottom: 0px; 
+}
+.portfolio-tittle{
+    color: #070211;
+    font-weight: 900;
+font-family: Merriweather;
+font-size: 48px;
+}
+#newsletter{
+    margin:120px 0;
+    text-align: center;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+padding: 80px 210px;
+}
+.newsletter-input{
+    border-radius: 50px;
+background: #FFF;
+color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding: 12px 30px 12px 200px;
+}
+.newsletter-button{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+padding: 12px 30px 12px 30px;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
