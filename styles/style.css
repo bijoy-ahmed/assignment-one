@@ -1,16 +1,19 @@
-/*  */
-.header{
+/* benner one */
+
+body{
     margin-top: 50px;
-    margin-right: 140px;
-    margin-left: 140px ; 
+    margin-right: 130px;
+    margin-left: 130px ; 
 }
 .bennar-text{
-    text-align: center;
+    text-align:center ;
     color: brown;
     background-image: url('../images/resources/Banner\ Image.png');
     padding:200px  340px ;
     background-repeat: no-repeat;
     padding-top: 100px;
+    border-radius: 16px;
+
 }
 .bennar-tittle{
     color: white;
@@ -26,3 +29,89 @@ font-weight: 400;
     line-height: 72px;
      
 }
+/* bennar two */
+.happy-new-year{
+    text-align: center;
+  
+}
+div .happy-new-year-tittle{
+    color: #F00;
+    font-size: 88px; 
+    font-weight: 700;  
+}
+div .dis-discription{
+    color: #F00; 
+    font-size: 24px;
+    font-weight: 500;
+}
+div .discount-tittle{
+    color: #070211;
+    font-size: 48px; 
+    font-weight: 700;
+}
+/* bennar three */
+
+/* fourth */
+main{
+   margin-top: 120px;
+   
+}
+ .fourth{
+    text-align: center; 
+    background-color:#FF0000, #FF000000;  
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+}
+.one, .two ,.five{
+    color: #F00;
+}
+.fourth-button{
+    color: #FFF;   
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+background: #F00;
+}
+/* fivth */
+.happy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 120px;
+
+}
+.happy-head-tittle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.comming{
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px; 
+    font-weight: 900;
+}
+.happy-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+font-family: Inter;
+font-size: 20px;
+}
+.happy-pic{
+    padding:25px;
+    border-radius: 463px;
+border: 15px solid #F00;
+}
+.haapy-head-tittle{
+    color: #F00;
+    font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+}
+/* sixth  */
