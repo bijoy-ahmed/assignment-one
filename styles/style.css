@@ -8,13 +8,15 @@ body{
 .bennar-text{
     text-align:center ;
     color: brown;
-    background-image: url('../images/resources/Banner\ Image.png');
-    padding:200px  340px ;
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    border-radius: 16px;
 
+    padding: 177PX 344PX;
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../images/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+   padding-top: 100px;
+   padding-left: 80px;
 }
+    
 .bennar-tittle{
     color: white;
 font-size: 32px;
@@ -51,18 +53,68 @@ div .discount-tittle{
 }
 /* bennar three */
 
+.party-comtrainer{
+    background:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../images/resources/Vectorrr.png');
+background-repeat: no-repeat;
+margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.party-heading{
+    color: #FFF;
+    font-weight: 900;
+font-family: Merriweather;
+font-size: 64px;
+
+margin-left: 126px;
+margin-right: 550px;
+
+}
+.party-des{
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 18px; 
+    margin-left: 126px;
+    margin-right: 400px;
+    margin-top: 24px;
+
+}
+.party-button{
+     
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 48px  142px 155px;
+}
+.party-img{
+
+}
+    
+
+
+
+
+
 /* fourth */
-main{
-   margin-top: 120px;
-   
+.event-contrainer{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    
 }
  .fourth{
+   padding-top: 40px;
     text-align: center; 
-    background-color:#FF0000, #FF000000;  
+    
     font-family: Inter;
 font-size: 32px;
 font-weight: 600;
 line-height: 56px;
+
 }
 .one, .two ,.five{
     color: #F00;
@@ -147,11 +199,11 @@ background-position:center ;
 }
 /* seventh */
 #portfolio{
-   padding-right: 26px;
+   
    margin-top: 120px;
 }
-.section-contain{
-
+.contrainer{
+    margin-right: 25px;
 }
 
     
@@ -160,7 +212,7 @@ background-position:center ;
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;
-    margin:5px;
+    margin:10px;
     gap: 14px;
 }
 .portfolio-heading{
@@ -176,6 +228,7 @@ background-position:center ;
 font-family: Merriweather;
 font-size: 48px;
 }
+/* eight */
 #newsletter{
     margin:120px 0;
     text-align: center;
@@ -215,12 +268,18 @@ font-weight: 600;
     font-weight: 500;
 font-family: Inter;
 font-size: 24px;
+margin-left: 40px;
+margin-top:100px ; 
+margin-bottom:100px;
 }
 .contact-info{
     color: #FFF;
     font-weight: 500;
 font-family: Inter;
 font-size: 24px;
+margin-right: 140px;
+margin-top:100px ; 
+margin-bottom:100px;
 }
 
 .icon-link{
