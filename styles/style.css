@@ -67,9 +67,10 @@ div .discount-tittle{
 background-repeat: no-repeat;
 margin-top: 60px;
     margin-bottom: 50px;
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: space-around;
+   padding-left: 138px;
     
 }
 .party-heading{
@@ -77,9 +78,9 @@ margin-top: 60px;
     font-weight: 900;
 font-family: Merriweather;
 font-size: 64px;
-
 margin-left: 126px;
 margin-right: 550px;
+
 
 }
 .party-des{
@@ -100,7 +101,9 @@ font-weight: 700;
 text-transform: uppercase;
 margin: 48px  142px 155px;
 }
-
+.party-img{
+    margin-right: 138px;
+}
     
 
 
@@ -184,6 +187,7 @@ border: 15px solid #F00;
 .holiday{
     margin-top: 120px;
     margin-left:40px ;
+   
 }
 .holiday-hide{
     color: #070211;
@@ -201,15 +205,23 @@ font-weight: 900;
     text-align: center;
     
 }
-.holiday .holiday-img{
-display: flex;
-align-items: center;
-justify-content: space-around;
-background-image: url('../images/resources/Group\ 44.png');
-background-repeat: no-repeat;
-background-position:center ;
+.holiday-contrainer{
+    position: relative;
+}
+.holiday-pic-one{
 
 }
+.holiday-pic-two{
+
+}
+.holiday-pic-three{
+
+}
+
+.holiday-pic-four{
+    position: fixed;
+}
+
 /* seventh */
 #portfolio{
    
@@ -257,6 +269,14 @@ font-family: Inter;
 font-size: 18px;
 font-weight: 400;
 padding: 12px 30px 12px 200px;
+border: none;
+outline: none;
+}
+.input-contrainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
 }
 .newsletter-button{
     border-radius: 0px 50px 50px 0px;
@@ -266,6 +286,7 @@ color: #FFF;
 font-family: Inter;
 font-size: 20px;
 font-weight: 600;
+border: none;
 }
 /* footer */
 footer{
